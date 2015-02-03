@@ -51,7 +51,7 @@ public class ParalaxItemSpawnScript : MonoBehaviour {
         {
             obj.transform.position = new Vector3(obj.transform.position.x,
                 obj.transform.position.y,
-                obj.transform.position.z + paralaxSpeed/4 );
+                obj.transform.position.z + 0.3f*Time.deltaTime );
         }
     }
 }
